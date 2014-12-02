@@ -16,3 +16,9 @@ output: html_document
 > 其实这里master是一个“refspec”,正常的refspec是<src>:<dst>,冒号前面是local branch名字，后面是remote branch,如果省略dst，就认为与src相同，上面等价于：git push origin/master:master;
 git push origin :master用空更新branch相当于删除了master
 
+```
+git config --global user.name = babyang
+git config --global user.email = isbabyang@gmail.com
+#记住密码
+git config --global credential.helper wincred
+```
