@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"Git\"\nauthor: \"qiandu\"\ndate: \"Tuesday, December 02, 2014\"\noutput: html_document\n---\n----\n####Git的origin和master\n\n- `git remote -v`查看远程repository\n\n- `git branch -a`查看所有分支，包括本地和远程\n\n- `git push origin master`在local repository中找到名为master的分支，并用它更新remote repository下名字为master的分支，如果没有就创建它\n\n> 其实这里master是一个“refspec”,正常的refspec是<src>:<dst>,冒号前面是local branch名字，后面是remote branch,如果省略dst，就认为与src相同，上面等价于：git push origin/master:master;\ngit push origin :master用空更新branch相当于删除了master\n\n```\ngit config --global user.name = babyang\ngit config --global user.email = isbabyang@gmail.com\n\n```\nhttp 需要用户名和密码",
+    "created" : 1417538535989.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2258461771",
+    "id" : "22F04FD0",
+    "lastKnownWriteTime" : 1417538584,
+    "path" : "D:/mogujie/learnNotes/Git_learningNotes.md",
+    "project_path" : "Git_learningNotes.md",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "markdown"
+}

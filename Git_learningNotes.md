@@ -19,6 +19,6 @@ git push origin :master用空更新branch相当于删除了master
 ```
 git config --global user.name = babyang
 git config --global user.email = isbabyang@gmail.com
-#记住密码
-git config --global credential.helper wincred
+
 ```
+http 需要用户名和密码
