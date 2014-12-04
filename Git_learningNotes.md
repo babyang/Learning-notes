@@ -22,3 +22,6 @@ git config --global user.email = isbabyang@gmail.com
 
 ```
 http 需要用户名和密码
+
+`git reset HEAD filename`撤销已提交到暂存区的内容（即撤销git add操作）
+`git checkout -- filename`撤销当前工作区修改，回到上一次commit或add时的状态
